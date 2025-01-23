@@ -1,0 +1,12 @@
+   15  mkdir Linux_Assignment
+   16  cd Linux_Assignment
+   17  mkdir Module1
+   18  cd Module1
+   19  mkdir Q1
+   20  cd Q1
+   21  touch file1.sh
+   22  ls 
+   23  chmod a+x file1.sh
+   24  ls -l file.sh
+   25  ls -l file1.sh
+   26  history > Q1_output.txt
