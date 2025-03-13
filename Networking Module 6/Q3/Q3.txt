@@ -1,0 +1,18 @@
+Given IP Address : 10.0.0.0/24
+
+To Create 4 Subnets
+
+Total Address : 2 ^ (32-24) = 2^8 = 256 addresses
+
+Addresses per Subnet : 64
+
+New Subnet Mask : /26 or 255.255.255.192
+
+Subnet 1 - 10.0.0.0/26 (Network Address) - 10.0.0.1 to 10.0.0.62 (Usable Host) - 10.0.0.63 (Broadcast IP)
+
+Subnet 2 - 10.0.0.64/26 (Network Address) - 10.0.0.65 to 10.0.0.126 (Usable Host) - 10.0.0.127 (Broadcast IP)
+
+Subnet 3 - 10.0.0.128/26 (Network Address) - 10.0.0.129 to 10.0.0.190 (Usable Host) - 10.0.0.191 (Broadcast IP)
+
+Subnet 2 - 10.0.0.192/26 (Network Address) - 10.0.0.193 to 10.0.0.254 (Usable Host) - 10.0.0.255 (Broadcast IP)
+

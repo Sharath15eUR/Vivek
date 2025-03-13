@@ -1,0 +1,13 @@
+ARP is used when the target IP address is known and MAC Address is not known. It works either when Router does not know the MAC Address of the client or when the Client does not know the MAC Address of Router.
+
+When the client knows only the IP address of the router, the client sends the ARP Request Packet to the router. This packet consists of header, source mac & IP Address (Client) and target IP address. Target MAC Address field is used to be filled with zeros during ARP Request. ARP Request is a broadcast message.
+
+When the Router receives the packet reverts back with reply packet where the source MAC & IP Address are the router's Address and the target address is the client address. This will be an unicast packet as the client's IP & MAC Address are already known.
+
+
+Importance of ARP In Packet Forwarding:
+1) It maps IP address to MAC address, thereby devices can communicate on a local network.
+
+2) If a packet is routed to a device in another network, the device can be identified only using MAC Address of the device. To find that ARP plays a major role.
+
+3) IP - MAC Address mapping of ARP helps in solving connectivity issues.
