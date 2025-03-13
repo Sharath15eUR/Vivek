@@ -1,0 +1,9 @@
+So the given address 192.168.1.0/24 consists of 256 addresses and each subnet has been classified with 64 addresses each.
+
+The subnet's are connected with routers and routers are connected in between them.
+
+Routing Table has been updated such that there exists a connectivity between the subnets from router 1 to router 2.
+
+All the subnets are properly configured with IP's, Subnet Mask and Default gateway.
+
+Ping helps to check the connectivity within the subnets.
