@@ -1,0 +1,15 @@
+DNS that stands for Domain Name System is used to map the IP address with a name like 192.168.1.1 with www.amazon.com so that the human can remember the domain names instead of numerical IP values.
+
+It normally maps these both one to one where it had two columns domain name and IP as the websites earlier were less in number.
+
+In today's world as the enormous increase website leads to the creation of domain by split up or group and it will be locally available at some of the edge devices nearby. DNS trees are used to classify the domains to avoid traffic and congestion
+
+DNS packets are of two types, namely Query and Response
+
+DNS query consists of Transaction ID for matching response, Questions, Answer RR.
+
+Queries consists of Domain Name, Type & Class.
+
+DNS Response packet has the same header as well as queries along with the responses.
+
+In the response we can find the IP address of the domain we've entered.
