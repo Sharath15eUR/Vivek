@@ -1,0 +1,5 @@
+total 0
+-rw-rw-r-- 1 vivek-narayanan-d vivek-narayanan-d 0 Jan 23 13:04 file_sorted.txt
+-rw-rw-r-- 1 vivek-narayanan-d vivek-narayanan-d 0 Jan 23 13:02 file3.txt
+-rw-rw-r-- 1 vivek-narayanan-d vivek-narayanan-d 0 Jan 23 13:02 file2.txt
+-rw-rw-r-- 1 vivek-narayanan-d vivek-narayanan-d 0 Jan 23 13:02 file1.txt

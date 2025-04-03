@@ -1,0 +1,12 @@
+   28  cd Linux_Assignment
+   29  cd Module1
+   30  mkdir Q2
+   31  cd Q2
+   32  touch file2.sh
+   33  ls
+   34  chmod g-w file2.sh
+   35  ls -l file2.sh
+   36  chmod o+wx file2.sh
+   37  chmod u+x file2.sh
+   38  ls -l file2.sh
+   39  history > Q2_output.txt
