@@ -1,7 +1,0 @@
-The ping command is used to check the connectivity of the device with the host.
-
-While using DHCP the IP is assigned automatically by the DHCP Server based upon request from DHCP Client.
-
-While using Static IP Assignment, the user has to provide the IP from the list of available IP's without providing same IP's to multiple devices.
-
-In my home, I've assigned for the IP 192.168.29.18 and the connectivity is good and verified using ping.
