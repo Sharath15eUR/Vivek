@@ -1,2 +1,0 @@
-./2mb-examplefile-com.txt
-./2mb.pdf
