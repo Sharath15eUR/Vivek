@@ -1,0 +1,10 @@
+NAT (Network Address Translation) is used to connect an private IP address to the public IP.
+
+Every router assigns private IP's to the devices connected to it. When the devices need to connect to internet or ISP it communicates to the router and where the router converts the private IP to public IP without changing the remaining in the data packets.
+
+It creates a mapping table of private and public IP's thereby identifying the respective packet source inside the private network. 
+
+It again retranslates the public IP to private IP using this mapping table when there is a packet or reply from the internet to the privately connected source.
+
+SOURCE IP ADDRESS BEFORE NAT : 192.168.1.2:11
+SOURCE IP ADDRESS AFTER NAT : 200.200.1.2:11

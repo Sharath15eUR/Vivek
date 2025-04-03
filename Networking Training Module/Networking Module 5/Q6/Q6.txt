@@ -1,0 +1,21 @@
+The given addresses are 10.1.1.1, 172.16.5.10 & 192.168.1.5
+
+By analysing the first octet of each address we can classify them as
+
+10.1.1.1 - Class A
+
+172.16.5.10 - Class B
+
+192.168.1.5 - Class C
+
+Default Subnet Masks for these classes are as below:
+
+Class A - 255.0.0.0 (/8)
+Class B - 255.255.0.0 (/16)
+Class C - 255.255.255.0 (/24)
+
+Valid IP Range for given addresses are as follows:
+
+10.0.0.0 to 10.255.255.255 
+172.16.0.0 to 172.31.255.255
+192.168.0.0 to 192.168.255.255 

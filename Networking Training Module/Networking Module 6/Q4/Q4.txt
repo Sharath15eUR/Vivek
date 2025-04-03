@@ -1,0 +1,13 @@
+Given IP Addresses : 192.168.10.5, 172.20.15.1, 8.8.8.8
+
+1) 192.168.10.5 - Class C - Private IP
+2) 172.20.10.5 - Class B - Private IP
+3) 8.8.8.8 - Class A - Public IP
+
+Private IP's generally cannot access the public server or internet directly. 
+
+Network Address Translation is used to connect a private IP address to the public servers. 
+
+For each private IP's there is a public IP that is assigned and the NAT maps both of them respectively.
+
+ 

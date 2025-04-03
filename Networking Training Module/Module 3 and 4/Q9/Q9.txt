@@ -1,0 +1,37 @@
+Configuring a Basic LAN Interface Using the ip Command
+
+Configuring a Local Area Network (LAN) interface in Linux involves assigning an IP address, bringing the interface up, and setting up a default gateway. Below are the step-by-step instructions:
+
+Step 1: View Available Interfaces
+
+	Run the following command to list all network interfaces:
+
+	Command : ip link show
+
+Step 2: Assign an IP Address
+
+	Use the ip addr add command to assign an IP address and subnet mask to the interface:
+
+	Command : sudo ip addr add 192.168.137.170/24 dev eth0
+
+	This command assigns the IP address 192.168.137.170 with a subnet mask of 255.255.255.0.
+
+Step 3: Bring the Interface Up
+
+	Activate the interface using the ip link set command:
+
+	Command : sudo ip link set eth0 up
+
+Step 4: Add a Default Gateway
+
+	Configure the default gateway to enable communication with other networks:
+
+	Command : sudo ip route add default via 192.168.137.1
+
+
+Step 5: Verify the Configuration
+
+	Check the assigned IP address and routing table to ensure everything is configured correctly:
+
+	Command : ip addr show eth0
+		  ip route show

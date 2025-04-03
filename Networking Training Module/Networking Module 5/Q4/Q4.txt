@@ -1,0 +1,13 @@
+DHCP (Dynamic Host Configuration Protocol) is used to allocate IP Address to clients dynamically to overcome the static assignment of IP which could lead to duplication of IP thereby creating network traffic and chaos.
+
+DHCP works on DORA Process.
+
+Discover - The DHCP client sends a Discover packet which is broadcasted to all the available nearby DHCP Servers.
+
+Offer - Then the DHCP Servers offers a packet with available IP's and other network parameters such as ports etc. This is a unicast message.
+
+Request - Then the DHCP Client sends an acceptance broadcast message such that stating it has accepted this offer from particular DHCP Server as that the other servers also know their offer got rejected.
+
+Acknowledge - The selected DHCP Server reverts back with a unicast acknowledgement message for the acceptance of the client.
+
+This process happens if a new device is configured with the router. If an already registered device is trying to reconnect to the router then the Request and Acknowledgement packets alone be transmitted for configuration not the discover and offer.

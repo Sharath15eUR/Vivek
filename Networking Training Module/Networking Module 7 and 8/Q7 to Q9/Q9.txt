@@ -1,0 +1,18 @@
+If VLAN 10 cannot communicate with VLAN 20, we can check on this like
+
+Issue				-	Troubleshooting Steps
+VLANs assigned incorrectly	-	Use show vlan brief to check assignment
+Trunk not allowing VLANs	-	Use show interfaces trunk, add missing VLANs
+Native VLAN mismatch		-	Ensure both switches have same native VLAN
+No inter-VLAN routing		-	Configure a router or Layer 3 switch
+
+
+we can verify VLAN Membership by using the command "show vlan brief"
+
+To check if the trunk is working, we can use the command "show interfaces trunk"
+
+To test communication between VLANs, we can use "ping" command.
+
+By these troubleshooting steps we can able to identify why vlan 10 cannot be able to communicate with vlan 20
+
+If Vlan 10 and Vlan 20 are in different networks, then we need to carry out inter vlan routing.

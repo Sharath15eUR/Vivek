@@ -1,0 +1,2 @@
+SCP also known as Secure Copy Protocol is used for secure transfer of files or directory from remote to local systems or from local system to remote system or server through SSH.
+CP is a copy tool used to copy within a local system from one location to another location

@@ -1,0 +1,13 @@
+In Networking, When two subnets are connected using different routers, initially the communication fails as the routing table has not been updated. 
+
+Updating routing table can be updated in two methods. 
+
+One is through the configuration tab where it has a specific column for updating the network, mask and next hop.
+
+Second method is using the CLI of the router. Here ip route command is used to update the routing in the router.
+
+Syntax : ip route "subnet network id" "subnet Mask" "Next hop"
+
+ip route 192.168.4.0 255.255.255.0 192.168.10.2 ("used in my simulation)
+
+The results were checked using tracert and ping commands.

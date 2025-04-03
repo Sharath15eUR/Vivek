@@ -1,0 +1,7 @@
+ARP Spoofing is a network threat that the third party induces in the network. 
+
+By knowing the MAC Address of the Gateway the intruder can spoof their MAC Address with it and can communicate with the source or server.
+
+The MAC table and ARP gets updated with the spoof table so that when the source tries to contact the original destination the packets will be routed to the intruder thereby sniffing the information.
+
+The source person will not reach the destination.

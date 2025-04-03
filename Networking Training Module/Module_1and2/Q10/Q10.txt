@@ -1,0 +1,8 @@
+Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses, subnet masks, default gateways, and DNS servers to devices on a network.
+
+The DHCP process follows four steps (DORA process):
+
+Discovery – The client broadcasts a DHCPDISCOVER request to find a DHCP server.
+Offer – The server responds with a DHCPOFFER containing an available IP address and other details.
+Request – The client sends a DHCPREQUEST to accept the offered IP.
+Acknowledge – The server confirms with a DHCPACK, and the client starts using the assigned IP.
