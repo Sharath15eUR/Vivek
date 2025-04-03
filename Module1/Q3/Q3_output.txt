@@ -1,8 +1,0 @@
-   42  cd Linux_Assignment/Module1
-   43  mkdir Q3
-   44  cd Q3
-   45  mkdir -p dir1/dir2
-   46  touch dir1/dir2/file3
-   47  ln -s dir1/dir2/file dir1/file_link
-   48  ls -l dir1/
-   49  history | tail -n 8 > Q3_output.txt

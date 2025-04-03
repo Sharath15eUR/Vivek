@@ -1,6 +1,0 @@
-   42  clear
-   43  cd Linux_Assignment/Module1
-   44  mkdir Q4
-   45  cd Q4
-   46  ps aux
-   47  history > Q4_output.txt
