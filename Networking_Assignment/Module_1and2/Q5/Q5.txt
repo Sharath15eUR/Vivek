@@ -1,8 +1,0 @@
-Duplicate IP address in a network system generally causes IP conflict and disruptions in connectivity.
-
-This may lead to the following issues :
-a) Disrupted Communications - The destination may change as both use same IP.
-b) Connectivity Loss - Based on the conflict, there occurs complete network access issues for either or for both of them.
-c) Inability - It cannot access certain services on affected devices until the duplicate IP is resolved
-
-This duplicate IP issue can be solved by proper DHCP configuration, double check while static IP assignment etc

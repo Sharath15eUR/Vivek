@@ -1,2 +1,0 @@
-FTP is a file transfer protocol used to transfer files between remote and local system or server
-SFTP is the Secure File Transfer Protocol which uses encryption while transfer of files thereby ensuring security which is not available in FTP
