@@ -1,0 +1,49 @@
+1. Child Process – fork()
+
+"fork()" is a system call in UNIX/Linux used to create a new process by duplicating the current process.
+The child gets a copy of the parent’s memory space but has a unique PID. 
+It returns `0` to the child and the child's PID to the parent, allowing you to distinguish execution paths.
+It's commonly used in multitasking, background processing, and daemon creation.
+Exploring `fork()` helps understand process lifecycle, PID management, and memory isolation.
+
+---
+
+2. Handling Common Signals
+
+Signals are software interrupts sent to a process to notify it of events (e.g., "SIGINT", "SIGKILL", "SIGTERM", "SIGSEGV").
+"signal()" and "sigaction()" are used to handle or ignore signals.
+Custom signal handlers can perform clean-up or graceful exits before termination.
+Useful for robust apps that manage user interrupts or system shutdowns.
+Learning this improves control over how your program behaves during exceptions or termination.
+
+---
+
+3. Exploring Different Kernel Crashes
+
+Kernel crashes occur due to bugs in kernel code, drivers, or improper hardware handling.
+Examples include segmentation faults, null pointer dereferencing, stack overflows in kernel space.
+Tools like `dmesg`, `syslog`, and crash dump analysis help trace the cause.
+Crashes like kernel panic halt the system and are critical to diagnose.
+Exploring this area builds a strong foundation in OS internals and debugging techniques.
+
+---
+
+4. Time Complexity
+
+Time complexity describes how the runtime of an algorithm grows relative to input size.
+Common notations: O(1), O(log n), O(n), O(n²), etc.
+Helps predict performance and scalability of code.
+It’s essential for optimizing loops, recursion, and data structure operations.
+Understanding this improves both algorithmic efficiency and interview readiness.
+
+---
+
+5. Locking Mechanism – Mutex / Spinlock
+
+Mutex : A mutual exclusion lock that blocks the thread until it can acquire the lock. Suitable for multi-threading.
+Spinlock : Busy-waits in a loop until the lock becomes available. Faster but wastes CPU cycles if held long.
+Mutexes are safer for user-space threading; spinlocks are common in kernel or real-time contexts.
+Locking prevents race conditions and ensures safe concurrent access to shared resources.
+Exploring both helps design thread-safe, deadlock-free, and efficient programs.
+
+
